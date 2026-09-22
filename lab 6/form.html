@@ -6,21 +6,39 @@
     <title>Document</title>
 </head>
 <body>
-   <form>
+    <h1>Registration Form</h1>
+   <form action="/lab 6/register.html" method="post">
+        
     <label for="name">enter your name:</label>    
-    <input type="text" name="Name" placeholder="Enter your name" id="name">
+        <input type="text" name="Name" placeholder="Enter your name" id="name">
+        <br>
+        <br>
+        <label for="email">enter your email:</label>    
+        <input type="email" name="Email" placeholder="Enter your email" id="email">
         <br>
         <br>
         <label for="age">enter your age:</label>    
         <input type="date" name="Age" placeholder="Enter your age" required id="age">
         <br>
         <br>
+        <label for="gender">enter your gender:</label>    
+        <select id="gender" name="gender">
+  <option value="">Please select one...</option>
+  <option value="female">Female</option>
+  <option value="male">Male</option>
+  <option value="non-binary">Non-Binary</option>
+  <option value="other">Other</option>
+  <option value="prefer-not-to-say">Prefer not to say</option>
+</select>
+
+        <br>
+        <br>
         <label for="city">enter your city:</label>    
         <input type="text" name="City" placeholder="Enter your city" value="Delhi" id="city">
         <br>
         <br>
-        <input type="submit">
-        
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
    </form>
 </body>
 </html>
