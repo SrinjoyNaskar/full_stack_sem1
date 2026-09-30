@@ -1,0 +1,27 @@
+body{
+    margin:0;
+}
+
+#item-1 {
+    background-color:yellow;
+    height: 100px;
+    width: 100px;
+    padding: 10px 20px 30px 40px;
+
+    border-width: 10px;
+    border-color: brown;
+    border-style: solid;
+}
+
+#item-2 {
+    background-color:orange;
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+
+    border-width: 10px;
+    border-color: brown;
+    border-style: solid;
+
+    box-sizing: border-box;
+}

@@ -1,0 +1,15 @@
+p {
+    /* color: aquamarine;
+    text-decoration: green wavy underline line-through; */
+    font-size: 20px;
+    font-weight: 800;
+    font-family:cursive;    
+}
+
+#p2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}

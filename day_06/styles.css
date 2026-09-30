@@ -1,0 +1,21 @@
+body{
+    background-color: yellow;
+}
+
+h1 {
+    color: brown;
+    background-color:lightgrey;
+
+    width: 300px;
+    padding: 20px;
+    box-sizing: content-box;
+}
+
+p {
+    color: violet;
+    background-color: gold;
+
+    width: 500px;
+    padding: 20px;
+    box-sizing: content-box;
+}
