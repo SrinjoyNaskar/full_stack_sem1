@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.item-1{
+    height: 500px;
+    width: 500px;
+    background-color: red;
+    border: solid 10px black;
+    margin: 20px;
+    background-image: url(https://i.pinimg.com/736x/4e/68/f8/4e68f8e2d30ac78f120ac981a2afbe1e.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.item-2{
+    height: 100px;
+    width: 200px;
+    background-color: rgba(0, 0,255, 0.5);
+    border: solid 10px black;
+    border-radius:  100px 100px 0% 0%;
+    margin: 20px;
+}
+
+.item-3{
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+    border: solid 10px black;
+    margin: 20px;
+    opacity: 0.5;
+}

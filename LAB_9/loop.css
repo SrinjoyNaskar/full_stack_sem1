@@ -1,0 +1,241 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #304337;
+
+    padding: 20px 40px;
+}
+
+.logo {
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cart {
+    background-color: #c49a52;
+    color: #26382e;
+    padding: 10px 18px;
+    border-radius: 20px;
+
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+
+.hero {
+    background: linear-gradient(135deg, #8a7d6d 0%, #7a5a44 100%);
+    padding: 120px 40px;
+    text-align: center;
+}
+ 
+.hero-content {
+    max-width: 480px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.subtitle {
+    color: #d8c9a8;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+ 
+.title {
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 44px;
+    font-weight: normal;
+    line-height: 1.2;
+    margin: 0 0 24px;
+}
+ 
+.description {
+    color: #eee6d8;
+    font-size: 13px;
+    line-height: 1.6;
+    margin: 0 0 32px;
+}
+ 
+.cta {
+    background-color: #c49a52;
+    color: #2b2b2b;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 14px 28px;
+    border-radius: 24px;
+    text-decoration: none;
+}
+
+/* featured section */
+
+.featured {
+    padding: 70px 40px 80px;
+    text-align: center;
+}
+ 
+.section-label {
+    color: #c49a52;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+ 
+.section-title {
+    font-family: Georgia, serif;
+    font-size: 26px;
+    font-weight: normal;
+    margin: 10px 0 8px;
+}
+ 
+.section-sub {
+    color: #6f6f6f;
+    font-size: 12px;
+    margin: 0 0 40px;
+}
+ 
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    max-width: 840px;
+    margin: 0 auto;
+}
+ 
+ 
+/* ---------- CARDS ---------- */
+ 
+.card {
+    flex: 1;
+    background-color: white;
+    border: 1px solid #ece8e0;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: left;
+}
+ 
+.card-image {
+    position: relative;
+    height: 180px;
+}
+ 
+.mug  { background-color: #c9a688; }
+.bowl { background-color: #93a68c; }
+.vase { background-color: #b89ea6; }
+ 
+.badge {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background-color: #c49a52;
+    color: #2b2b2b;
+    font-size: 9px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 12px;
+}
+ 
+.card-body {
+    padding: 16px 18px 18px;
+}
+ 
+.card-body h3 {
+    font-family: Georgia, serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0 0 4px;
+}
+ 
+.card-body p {
+    color: #8a8a8a;
+    font-size: 11px;
+    margin: 0 0 16px;
+}
+ 
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.price {
+    font-size: 14px;
+    font-weight: bold;
+}
+ 
+.add-btn {
+    background-color: transparent;
+    border: 1px solid #3a4a40;
+    border-radius: 6px;
+    color: #3a4a40;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 8px 14px;
+    cursor: pointer;
+}
+ 
+.add-btn:hover {
+    background-color: #3a4a40;
+    color: white;
+}
+ 
+ 
+/* ---------- FOOTER ---------- */
+ 
+.footer {
+    background-color: #3a4a40;
+    color: #d6d3c8;
+    text-align: center;
+    padding: 36px 20px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+ 
+.footer p {
+    margin: 0 0 12px;
+}
+ 
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+ 
+.footer-links a {
+    color: #d6d3c8;
+}
+        
