@@ -35,6 +35,6 @@
 // console.log(`total: ${price + 5}`);
 // -------------------------------------
 
-let name = "beedi";
-let item =  "cigarette";
-console.log(`my name is ${name}, and i smoke ${item}`);
+// let name = "beedi";
+// let item =  "cigarette";
+// console.log(`my name is ${name}, and i smoke ${item}`);
